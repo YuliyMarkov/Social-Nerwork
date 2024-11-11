@@ -7,7 +7,7 @@ interface PostSettingsProps {
 
 export const PostSettings = ({ onEditClick, onDeleteClick }: PostSettingsProps) => {
   return (
-    <StyledPostSettings className="open"> {/* Используем класс open для отображения */}
+    <StyledPostSettings className="open"> 
       <SettingButton onClick={onDeleteClick}>Удалить</SettingButton>
       <SettingButton onClick={onEditClick}>Изменить</SettingButton>
     </StyledPostSettings>
